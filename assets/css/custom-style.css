@@ -1,0 +1,48 @@
+/* CSS RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-logo{
+  font-size: 18px;
+}
+.main-card{
+    border: 1px solid #696cff!important;
+    transition: 0.3s ease-in-out;
+    min-height:177px;
+}
+.main-card:hover{
+    border: 1px solid #696cff!important;
+    background-color: #f5f5fe;
+    transform: scale(1.01);
+}
+.main-card .card-img img{
+    width: 50px;
+    height: 50px;
+}
+.card-title{
+    margin-top: 20px;
+}
+.content-wrapper{
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* INPUT TYPE TEXT STYLING FROM QUALIFICATION TABLE  */
+
+.addInputText{
+    /* background-color:#121212; */
+    /* padding: 5px; */
+    width: 100%!important;
+}
+.addInputText::placeholder{
+    color:#697a8d;
+    /* color: red!important; */
+}
+.addInputText:focus{
+    border: none;
+    outline:none;
+}
